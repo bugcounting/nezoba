@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP23017-E_SP
+D IC I/O EXPANDER I2C 16B 28SDIP
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en023709
+$ENDCMP
+#
+$CMP R_US
+D Resistor, US symbol
+K R res resistor
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773271&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP SW_DIP_x01_Kailh_Choc_Red
+D SW PB SPST-NO 10MA 12V 1=10PCS
+F https://cdn-shop.adafruit.com/product-files/5113/CHOC+keyswitch_Kailh-CPG135001D01_C400229.pdf
+$ENDCMP
+#
+$CMP SW_DIP_x01_Kailh_Choc_White
+D KAILH CHOC LOW PROFILE WHITE CLI
+F https://cdn-shop.adafruit.com/product-files/5113/CHOC+keyswitch_Kailh-CPG135001D01_C400229.pdf
+$ENDCMP
+#
+$CMP SW_DIP_x01_tactile
+D SWITCH TACTILE SPST-NO 0.05A 12V
+F https://www.we-online.de/katalog/datasheet/430476085716.pdf
+$ENDCMP
+#
+$CMP SW_DIP_x04
+D DIP SWITCH SPST 4 POSITION THROU
+F https://www.citrelay.com/Catalog%20Pages/SwitchCatalog/KG.pdf
+$ENDCMP
+#
+$CMP TrinketM0
+D TRINKET M0 ATSAMD21E18 EVAL BRD
+F https://www.adafruit.com/product/3500#description
+$ENDCMP
+#
+#End Doc Library

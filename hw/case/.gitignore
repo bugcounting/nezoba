@@ -1,0 +1,8 @@
+# Blender backups
+*.blend1
+
+# Inkscape autosave
+*.svg.???_??_??_??_??_??.*.svg
+
+# unversioned files are kept here
+backups/

@@ -1,0 +1,62 @@
+# all help commands
+help
+help cfg
+help configuration
+help copy
+help default
+help describe
+help exit
+help help
+help quit
+help remap
+help reset
+help save
+help scheme
+help show
+# commands that don't work until a configuration is selected
+copy
+default
+describe
+remap
+reset
+save
+scheme
+show
+# configuration without arguments also doesn't work
+configuration
+cfg
+# valid configuration numbers
+configuration 3
+configuration 4
+configuration 10
+# invalid configuration number
+configuration 500
+# valid configuration number given in binary
+configuration 1 0 1 1
+# print configuration 1011 = 11
+show
+# print available naming schemes
+scheme
+# describe followed by empty line: cancel change description
+describe
+
+# invalid remap: 4 keys are too many for one button
+remap 4
+Y & X & A & B
+
+# invalid remap: foo is not a valid key
+remap 4
+^X & foo
+
+# valid remap
+remap 4
+X & ^A
+
+# copy current remapping from another one
+copy 2
+# change current remapping to default one
+default
+# reset to file content
+reset
+# exit (doesn't ask for confirmation since nothing was changed after reset)
+quit

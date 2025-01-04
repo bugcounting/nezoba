@@ -1,0 +1,11 @@
+Probably the best choice:
+https://flexx.readthedocs.io/en/stable/
+
+Controller buttons:
+https://opengameart.org/content/controller-input-icons
+
+Alternatives:
+https://kivy.org/
+https://bottlepy.org/docs/dev/
+https://www.reahl.org/web
+

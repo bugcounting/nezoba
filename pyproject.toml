@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nezoba"
+version = "2025.1"
+description = "Hardware and software for a custom button-only game controller"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE.md" }
+keywords = ["game controller", "arduino"]
+authors = [{ name = "Carlo A. Furia", email = "c.a.furia@gmail.com" }]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Games/Entertainment",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3.10",
+]
+# https://packaging.python.org/discussions/install-requires-vs-requirements/
+dependencies = [
+    "justpy>=0.12.1",
+    "PyYAML>=6.0.2",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.2"]
+
+[project.urls]
+"Homepage" = "https://github.com/bugcounting/nezoba"
+
+[project.scripts]
+nezoba = "nezoba.nezoba:main"
+
+[tool.setuptools]
+# Specifying package data in MANIFEST.in instead
+# https://stackoverflow.com/a/14159430
+include-package-data = true

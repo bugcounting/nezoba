@@ -1,0 +1,257 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MCP23017-CJMCU
+#
+DEF MCP23017-CJMCU IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MCP23017-CJMCU" 1050 200 50 H V L CNN
+F2 "nez-footprints:CJMCU-2317_23.8x26.2mm" 1050 100 50 H I L CNN
+F3 "" 1050 0 50 H I L CNN
+F4 "16-bit Input/Output Expander, I2C, development board" 1050 -100 50 H I L CNN "Description"
+F5 "2" 1050 -200 50 H I L CNN "Height"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -1400 200 -1400 200 100 N
+X GPB0 1 0 0 200 R 50 50 0 0 P
+X VSS 10 0 -900 200 R 50 50 0 0 P
+X NC_1 11 0 -1000 200 R 50 50 0 0 P
+X SCL 12 0 -1100 200 R 50 50 0 0 P
+X SDA 13 0 -1200 200 R 50 50 0 0 P
+X NC_2 14 0 -1300 200 R 50 50 0 0 P
+X A0 15 1200 -1300 200 L 50 50 0 0 P
+X A1 16 1200 -1200 200 L 50 50 0 0 P
+X A2 17 1200 -1100 200 L 50 50 0 0 P
+X ~RESET 18 1200 -1000 200 L 50 50 0 0 P
+X INTB 19 1200 -900 200 L 50 50 0 0 P
+X GPB1 2 0 -100 200 R 50 50 0 0 P
+X INTA 20 1200 -800 200 L 50 50 0 0 P
+X GPA0 21 1200 -700 200 L 50 50 0 0 P
+X GPA1 22 1200 -600 200 L 50 50 0 0 P
+X GPA2 23 1200 -500 200 L 50 50 0 0 P
+X GPA3 24 1200 -400 200 L 50 50 0 0 P
+X GPA4 25 1200 -300 200 L 50 50 0 0 P
+X GPA5 26 1200 -200 200 L 50 50 0 0 P
+X GPA6 27 1200 -100 200 L 50 50 0 0 P
+X GPA7 28 1200 0 200 L 50 50 0 0 P
+X GPB2 3 0 -200 200 R 50 50 0 0 P
+X GPB3 4 0 -300 200 R 50 50 0 0 P
+X GPB4 5 0 -400 200 R 50 50 0 0 P
+X GPB5 6 0 -500 200 R 50 50 0 0 P
+X GPB6 7 0 -600 200 R 50 50 0 0 P
+X GPB7 8 0 -700 200 R 50 50 0 0 P
+X VDD 9 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# MCP23017-E_SP
+#
+DEF MCP23017-E_SP IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MCP23017-E_SP" 1050 200 50 H V L CNN
+F2 "nez-footprints:DIP-28_W7.62mm" 1050 100 50 H I L CNN
+F3 "" 1050 0 50 H I L CNN
+F4 "2" 1050 -200 50 H I L CNN "Height"
+F5 "Microchip Technology" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F6 "MCP23017-E/SP" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "MCP23017-E/SP-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F8 "https://www.digikey.be/en/products/detail/microchip-technology/MCP23017-E-SP/894272" 0 0 50 H I C CNN "Digi-Key Product Page"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -1400 200 -1400 200 100 N
+X GPB0 1 0 0 200 R 50 50 0 0 P
+X VSS 10 0 -900 200 R 50 50 0 0 P
+X NC_1 11 0 -1000 200 R 50 50 0 0 P
+X SCL 12 0 -1100 200 R 50 50 0 0 P
+X SDA 13 0 -1200 200 R 50 50 0 0 P
+X NC_2 14 0 -1300 200 R 50 50 0 0 P
+X A0 15 1200 -1300 200 L 50 50 0 0 P
+X A1 16 1200 -1200 200 L 50 50 0 0 P
+X A2 17 1200 -1100 200 L 50 50 0 0 P
+X ~RESET 18 1200 -1000 200 L 50 50 0 0 P
+X INTB 19 1200 -900 200 L 50 50 0 0 P
+X GPB1 2 0 -100 200 R 50 50 0 0 P
+X INTA 20 1200 -800 200 L 50 50 0 0 P
+X GPA0 21 1200 -700 200 L 50 50 0 0 P
+X GPA1 22 1200 -600 200 L 50 50 0 0 P
+X GPA2 23 1200 -500 200 L 50 50 0 0 P
+X GPA3 24 1200 -400 200 L 50 50 0 0 P
+X GPA4 25 1200 -300 200 L 50 50 0 0 P
+X GPA5 26 1200 -200 200 L 50 50 0 0 P
+X GPA6 27 1200 -100 200 L 50 50 0 0 P
+X GPA7 28 1200 0 200 L 50 50 0 0 P
+X GPB2 3 0 -200 200 R 50 50 0 0 P
+X GPB3 4 0 -300 200 R 50 50 0 0 P
+X GPB4 5 0 -400 200 R 50 50 0 0 P
+X GPB5 6 0 -500 200 R 50 50 0 0 P
+X GPB6 7 0 -600 200 R 50 50 0 0 P
+X GPB7 8 0 -700 200 R 50 50 0 0 P
+X VDD 9 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# R_US
+#
+DEF R_US R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "R_US" -100 0 50 V V C CNN
+F2 "nez-footprints:R_LDR_P12mm_narrow" 40 -10 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TE Connectivity Passive Product" 0 0 50 H I C CNN "Manufacturer_Name"
+F5 "ROX1SJ4K7" 0 0 50 H I C CNN "Manufacturer_Part_Number"
+F6 "A131473CT-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F7 "https://www.digikey.be/en/products/detail/te-connectivity-passive-product/ROX1SJ4K7/8603603" 0 0 50 H I C CNN "Digi-Key Product Page"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_DIP_x01_Kailh_Choc_Red
+#
+DEF SW_DIP_x01_Kailh_Choc_Red SW 0 0 Y N 1 F N
+F0 "SW" 0 150 50 H V C CNN
+F1 "SW_DIP_x01_Kailh_Choc_Red" 0 -150 50 H V C CNN
+F2 "nez-footprints:Kailh_Choc_LowProfile_CPG135001D02" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Adafruit Industries LLC" 0 0 50 H I C CNN "Manufacturer_Name"
+F5 "5113" 0 0 50 H I C CNN "Manufacturer_Part_Number"
+F6 "1528-5113-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F7 "https://www.digikey.be/en/products/detail/adafruit-industries-llc/5113/14671668" 0 0 50 H V C CNN "Digi-Key Product Page"
+$FPLIST
+ SW?DIP?x1*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+S -150 100 150 -100 0 1 10 f
+P 2 0 0 0 -60 5 93 46 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_DIP_x01_Kailh_Choc_White
+#
+DEF SW_DIP_x01_Kailh_Choc_White SW 0 0 Y N 1 F N
+F0 "SW" 0 150 50 H V C CNN
+F1 "SW_DIP_x01_Kailh_Choc_White" 0 -150 50 H V C CNN
+F2 "nez-footprints:Kailh_Choc_LowProfile_CPG135001D02" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Adafruit Industries LLC" 0 0 50 H I C CNN "Manufacturer_Name"
+F5 "5114" 0 0 50 H I C CNN "Manufacturer_Part_Number"
+F6 "1528-5114-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F7 "https://www.digikey.be/en/products/detail/adafruit-industries-llc/5114/14671677" 0 0 50 H I C CNN "Digi-Key Product Page"
+$FPLIST
+ SW?DIP?x1*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+S -150 100 150 -100 0 1 10 f
+P 2 0 0 0 -60 5 93 46 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_DIP_x01_tactile
+#
+DEF SW_DIP_x01_tactile SW 0 0 Y N 1 F N
+F0 "SW" 0 150 50 H V C CNN
+F1 "SW_DIP_x01_tactile" 0 -150 50 H V C CNN
+F2 "nez-footprints:SW_SPST_B3S-1000" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Würth Elektronik" 0 0 50 H I C CNN "Manufacturer_Name"
+F5 "430476085716" 0 0 50 H I C CNN "Manufacturer_Part_Number"
+F6 "430476085716-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F7 "https://www.digikey.be/en/products/detail/w%C3%BCrth-elektronik/430476085716/5209048" 0 0 50 H I C CNN "Digi-Key Product Page"
+$FPLIST
+ SW?DIP?x1*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+S -150 100 150 -100 0 1 10 f
+P 2 0 0 0 -60 5 93 46 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_DIP_x04
+#
+DEF SW_DIP_x04 SW 0 0 Y N 1 F N
+F0 "SW" 0 350 50 H V C CNN
+F1 "SW_DIP_x04" 0 -250 50 H V C CNN
+F2 "nez-footprints:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.8mm_P2.54mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "CIT Relay and Switch" 0 0 50 H I C CNN "Manufacturer_Name"
+F5 "KG04E" 0 0 50 H I C CNN "Manufacturer_Part_Number"
+F6 "2449-KG04E-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F7 "https://www.digikey.be/en/products/detail/cit-relay-and-switch/KG04E/15294210" 0 0 50 H I C CNN "Digi-Key product page"
+$FPLIST
+ SW?DIP?x4*
+$ENDFPLIST
+DRAW
+C -80 -100 20 0 0 0 N
+C -80 0 20 0 0 0 N
+C -80 100 20 0 0 0 N
+C -80 200 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 0 20 0 0 0 N
+C 80 100 20 0 0 0 N
+C 80 200 20 0 0 0 N
+S -150 300 150 -200 0 1 10 f
+P 2 0 0 0 -60 -94 93 -53 N
+P 2 0 0 0 -60 5 93 46 N
+P 2 0 0 0 -60 105 93 146 N
+P 2 0 0 0 -60 205 93 246 N
+X ~ 1 -300 200 200 R 50 50 1 1 P
+X ~ 2 -300 100 200 R 50 50 1 1 P
+X ~ 3 -300 0 200 R 50 50 1 1 P
+X ~ 4 -300 -100 200 R 50 50 1 1 P
+X ~ 5 300 -100 200 L 50 50 1 1 P
+X ~ 6 300 0 200 L 50 50 1 1 P
+X ~ 7 300 100 200 L 50 50 1 1 P
+X ~ 8 300 200 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TrinketM0
+#
+DEF TrinketM0 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "TrinketM0" 850 200 50 H V L CNN
+F2 "nez-footprints:Trinket_M0" 850 100 50 H I L CNN
+F3 "" 850 0 50 H I L CNN
+F4 "ADAFRUIT - 3500 - ADAFRUIT TRINKET M0 - FOR USE WITH CIRCUITPYTHON & ARDUINO IDE" 850 -100 50 H I L CNN "Description"
+F5 "2.75" 850 -200 50 H I L CNN "Height"
+F6 "Adafruit" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "3500" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1528-2361-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F9 "https://www.digikey.be/en/products/detail/adafruit-industries-llc/3500/7623049" 0 0 50 H I C CNN "Digi-Key Product Page"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -600 200 -600 200 100 N
+X RST 1 0 0 200 R 50 50 0 0 P
+X USB 10 1000 -300 200 L 50 50 0 0 O
+X 3 2 0 -100 200 R 50 50 0 0 P
+X 4 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 O
+X BAT 5 0 -400 200 R 50 50 0 0 P
+X 3V 6 0 -500 200 R 50 50 0 0 P
+X 2 7 1000 0 200 L 50 50 0 0 P
+X 1~ 8 1000 -100 200 L 50 50 0 0 P
+X 0 9 1000 -200 200 L 50 50 0 0 P
+X MH1 MH1 1000 -400 200 L 50 50 0 0 P
+X MH2 MH2 1000 -500 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

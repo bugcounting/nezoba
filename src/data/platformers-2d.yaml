@@ -1,0 +1,2511 @@
+!MappingList
+buttons: &id001 !Buttons
+  layout: !ButtonLayout 'NEZ_OBA'
+  data: !!python/tuple
+  - !Button
+    identifier: 0
+    name: 'Button #0'
+  - !Button
+    identifier: 1
+    name: 'Button #1'
+  - !Button
+    identifier: 2
+    name: 'Button #2'
+  - !Button
+    identifier: 3
+    name: 'Button #3'
+  - !Button
+    identifier: 4
+    name: 'Button #4'
+  - !Button
+    identifier: 5
+    name: 'Button #5'
+  - !Button
+    identifier: 6
+    name: 'Button #6'
+  - !Button
+    identifier: 7
+    name: 'Button #7'
+  - !Button
+    identifier: 8
+    name: 'Button #8'
+  - !Button
+    identifier: 9
+    name: 'Button #9'
+  - !Button
+    identifier: 10
+    name: 'Button #10'
+  - !Button
+    identifier: 11
+    name: 'Button #11'
+  - !Button
+    identifier: 12
+    name: 'Button #12'
+  - !Button
+    identifier: 13
+    name: 'Button #13'
+  - !Button
+    identifier: 14
+    name: 'Button #14'
+keys: !Keys
+- !Key
+  key: K_NOOP
+  identifier: 0
+  group: !KeyGroup 'NOOP'
+  description: Do nothing
+- !Key
+  key: K_DP_UP
+  identifier: 1
+  group: !KeyGroup 'DPAD'
+  description: D-pad up
+- !Key
+  key: K_DP_UP_RIGHT
+  identifier: 2
+  group: !KeyGroup 'DPAD'
+  description: D-pad up right
+- !Key
+  key: K_DP_RIGHT
+  identifier: 3
+  group: !KeyGroup 'DPAD'
+  description: D-pad right
+- !Key
+  key: K_DP_DOWN_RIGHT
+  identifier: 4
+  group: !KeyGroup 'DPAD'
+  description: D-pad down right
+- !Key
+  key: K_DP_DOWN
+  identifier: 5
+  group: !KeyGroup 'DPAD'
+  description: D-pad down
+- !Key
+  key: K_DP_DOWN_LEFT
+  identifier: 6
+  group: !KeyGroup 'DPAD'
+  description: D-pad down left
+- !Key
+  key: K_DP_LEFT
+  identifier: 7
+  group: !KeyGroup 'DPAD'
+  description: D-pad left
+- !Key
+  key: K_DP_UP_LEFT
+  identifier: 8
+  group: !KeyGroup 'DPAD'
+  description: D-pad up left
+- !Key
+  key: K_DP_CENTER
+  identifier: 9
+  group: !KeyGroup 'DPAD'
+  description: D-pad centered
+- !Key
+  key: K_A
+  identifier: 10
+  group: !KeyGroup 'REGULAR'
+  description: Button A
+- !Key
+  key: K_B
+  identifier: 11
+  group: !KeyGroup 'REGULAR'
+  description: Button B
+- !Key
+  key: K_X
+  identifier: 12
+  group: !KeyGroup 'REGULAR'
+  description: Button X
+- !Key
+  key: K_Y
+  identifier: 13
+  group: !KeyGroup 'REGULAR'
+  description: Button Y
+- !Key
+  key: K_L
+  identifier: 14
+  group: !KeyGroup 'REGULAR'
+  description: Button left shoulder
+- !Key
+  key: K_R
+  identifier: 15
+  group: !KeyGroup 'REGULAR'
+  description: Button right shoulder
+- !Key
+  key: K_ZL
+  identifier: 16
+  group: !KeyGroup 'REGULAR'
+  description: Button left trigger
+- !Key
+  key: K_ZR
+  identifier: 17
+  group: !KeyGroup 'REGULAR'
+  description: Button right trigger
+- !Key
+  key: K_HOME
+  identifier: 18
+  group: !KeyGroup 'REGULAR'
+  description: Menu home
+- !Key
+  key: K_PLUS
+  identifier: 19
+  group: !KeyGroup 'REGULAR'
+  description: Menu right
+- !Key
+  key: K_MINUS
+  identifier: 20
+  group: !KeyGroup 'REGULAR'
+  description: Menu left
+- !Key
+  key: K_LS_PRESS
+  identifier: 21
+  group: !KeyGroup 'REGULAR'
+  description: Left stick press
+- !Key
+  key: K_RS_PRESS
+  identifier: 22
+  group: !KeyGroup 'REGULAR'
+  description: Right stick press
+- !Key
+  key: K_CAPTURE
+  identifier: 23
+  group: !KeyGroup 'REGULAR'
+  description: Menu capture
+- !Key
+  key: K_LS_UP
+  identifier: 24
+  group: !KeyGroup 'LEFT_STICK'
+  description: Left stick up
+- !Key
+  key: K_LS_UP_RIGHT
+  identifier: 25
+  group: !KeyGroup 'LEFT_STICK'
+  description: Left stick up right
+- !Key
+  key: K_LS_RIGHT
+  identifier: 26
+  group: !KeyGroup 'LEFT_STICK'
+  description: Left stick right
+- !Key
+  key: K_LS_DOWN_RIGHT
+  identifier: 27
+  group: !KeyGroup 'LEFT_STICK'
+  description: Left stick down right
+- !Key
+  key: K_LS_DOWN
+  identifier: 28
+  group: !KeyGroup 'LEFT_STICK'
+  description: Left stick down
+- !Key
+  key: K_LS_DOWN_LEFT
+  identifier: 29
+  group: !KeyGroup 'LEFT_STICK'
+  description: Left stick down left
+- !Key
+  key: K_LS_LEFT
+  identifier: 30
+  group: !KeyGroup 'LEFT_STICK'
+  description: Left stick left
+- !Key
+  key: K_LS_UP_LEFT
+  identifier: 31
+  group: !KeyGroup 'LEFT_STICK'
+  description: Left stick up left
+- !Key
+  key: K_LS_CENTER
+  identifier: 32
+  group: !KeyGroup 'LEFT_STICK'
+  description: Left stick center
+- !Key
+  key: K_RS_UP
+  identifier: 33
+  group: !KeyGroup 'RIGHT_STICK'
+  description: Right stick up
+- !Key
+  key: K_RS_UP_RIGHT
+  identifier: 34
+  group: !KeyGroup 'RIGHT_STICK'
+  description: Right stick up right
+- !Key
+  key: K_RS_RIGHT
+  identifier: 35
+  group: !KeyGroup 'RIGHT_STICK'
+  description: Right stick right
+- !Key
+  key: K_RS_DOWN_RIGHT
+  identifier: 36
+  group: !KeyGroup 'RIGHT_STICK'
+  description: Right stick down right
+- !Key
+  key: K_RS_DOWN
+  identifier: 37
+  group: !KeyGroup 'RIGHT_STICK'
+  description: Right stick down
+- !Key
+  key: K_RS_DOWN_LEFT
+  identifier: 38
+  group: !KeyGroup 'RIGHT_STICK'
+  description: Right stick down left
+- !Key
+  key: K_RS_LEFT
+  identifier: 39
+  group: !KeyGroup 'RIGHT_STICK'
+  description: Right stick left
+- !Key
+  key: K_RS_UP_LEFT
+  identifier: 40
+  group: !KeyGroup 'RIGHT_STICK'
+  description: Right stick up left
+- !Key
+  key: K_RS_CENTER
+  identifier: 41
+  group: !KeyGroup 'RIGHT_STICK'
+  description: Right stick center
+data:
+- !NamedMapping
+  buttons: *id001
+  keys: &id002 !NamedKeys
+  - !NamedKey
+    key: K_NOOP
+    identifier: 0
+    group: !KeyGroup 'NOOP'
+    description: Do nothing
+    name: ''
+    scheme: !NameScheme 'NS'
+    named_description: Do nothing
+  - !NamedKey
+    key: K_DP_UP
+    identifier: 1
+    group: !KeyGroup 'DPAD'
+    description: D-pad up
+    name: "\u21D1"
+    scheme: !NameScheme 'NS'
+    named_description: D-pad up
+  - !NamedKey
+    key: K_DP_UP_RIGHT
+    identifier: 2
+    group: !KeyGroup 'DPAD'
+    description: D-pad up right
+    name: "\u21D7"
+    scheme: !NameScheme 'NS'
+    named_description: D-pad up right
+  - !NamedKey
+    key: K_DP_RIGHT
+    identifier: 3
+    group: !KeyGroup 'DPAD'
+    description: D-pad right
+    name: "\u21D2"
+    scheme: !NameScheme 'NS'
+    named_description: D-pad right
+  - !NamedKey
+    key: K_DP_DOWN_RIGHT
+    identifier: 4
+    group: !KeyGroup 'DPAD'
+    description: D-pad down right
+    name: "\u21D8"
+    scheme: !NameScheme 'NS'
+    named_description: D-pad down right
+  - !NamedKey
+    key: K_DP_DOWN
+    identifier: 5
+    group: !KeyGroup 'DPAD'
+    description: D-pad down
+    name: "\u21D3"
+    scheme: !NameScheme 'NS'
+    named_description: D-pad down
+  - !NamedKey
+    key: K_DP_DOWN_LEFT
+    identifier: 6
+    group: !KeyGroup 'DPAD'
+    description: D-pad down left
+    name: "\u21D9"
+    scheme: !NameScheme 'NS'
+    named_description: D-pad down left
+  - !NamedKey
+    key: K_DP_LEFT
+    identifier: 7
+    group: !KeyGroup 'DPAD'
+    description: D-pad left
+    name: "\u21D0"
+    scheme: !NameScheme 'NS'
+    named_description: D-pad left
+  - !NamedKey
+    key: K_DP_UP_LEFT
+    identifier: 8
+    group: !KeyGroup 'DPAD'
+    description: D-pad up left
+    name: "\u21D6"
+    scheme: !NameScheme 'NS'
+    named_description: D-pad up left
+  - !NamedKey
+    key: K_DP_CENTER
+    identifier: 9
+    group: !KeyGroup 'DPAD'
+    description: D-pad centered
+    name: "\u2B24"
+    scheme: !NameScheme 'NS'
+    named_description: D-pad centered
+  - !NamedKey
+    key: K_A
+    identifier: 10
+    group: !KeyGroup 'REGULAR'
+    description: Button A
+    name: A
+    scheme: !NameScheme 'NS'
+    named_description: Button A
+  - !NamedKey
+    key: K_B
+    identifier: 11
+    group: !KeyGroup 'REGULAR'
+    description: Button B
+    name: B
+    scheme: !NameScheme 'NS'
+    named_description: Button B
+  - !NamedKey
+    key: K_X
+    identifier: 12
+    group: !KeyGroup 'REGULAR'
+    description: Button X
+    name: X
+    scheme: !NameScheme 'NS'
+    named_description: Button X
+  - !NamedKey
+    key: K_Y
+    identifier: 13
+    group: !KeyGroup 'REGULAR'
+    description: Button Y
+    name: Y
+    scheme: !NameScheme 'NS'
+    named_description: Button Y
+  - !NamedKey
+    key: K_L
+    identifier: 14
+    group: !KeyGroup 'REGULAR'
+    description: Button left shoulder
+    name: L
+    scheme: !NameScheme 'NS'
+    named_description: Button left shoulder
+  - !NamedKey
+    key: K_R
+    identifier: 15
+    group: !KeyGroup 'REGULAR'
+    description: Button right shoulder
+    name: R
+    scheme: !NameScheme 'NS'
+    named_description: Button right shoulder
+  - !NamedKey
+    key: K_ZL
+    identifier: 16
+    group: !KeyGroup 'REGULAR'
+    description: Button left trigger
+    name: ZL
+    scheme: !NameScheme 'NS'
+    named_description: Button left trigger
+  - !NamedKey
+    key: K_ZR
+    identifier: 17
+    group: !KeyGroup 'REGULAR'
+    description: Button right trigger
+    name: ZR
+    scheme: !NameScheme 'NS'
+    named_description: Button right trigger
+  - !NamedKey
+    key: K_HOME
+    identifier: 18
+    group: !KeyGroup 'REGULAR'
+    description: Menu home
+    name: "\u2302"
+    scheme: !NameScheme 'NS'
+    named_description: Menu home
+  - !NamedKey
+    key: K_PLUS
+    identifier: 19
+    group: !KeyGroup 'REGULAR'
+    description: Menu right
+    name: +
+    scheme: !NameScheme 'NS'
+    named_description: Menu +
+  - !NamedKey
+    key: K_MINUS
+    identifier: 20
+    group: !KeyGroup 'REGULAR'
+    description: Menu left
+    name: '-'
+    scheme: !NameScheme 'NS'
+    named_description: Menu -
+  - !NamedKey
+    key: K_LS_PRESS
+    identifier: 21
+    group: !KeyGroup 'REGULAR'
+    description: Left stick press
+    name: "L\u2713"
+    scheme: !NameScheme 'NS'
+    named_description: Left stick press
+  - !NamedKey
+    key: K_RS_PRESS
+    identifier: 22
+    group: !KeyGroup 'REGULAR'
+    description: Right stick press
+    name: "R\u2713"
+    scheme: !NameScheme 'NS'
+    named_description: Right stick press
+  - !NamedKey
+    key: K_CAPTURE
+    identifier: 23
+    group: !KeyGroup 'REGULAR'
+    description: Menu capture
+    name: capture
+    scheme: !NameScheme 'NS'
+    named_description: Menu capture
+  - !NamedKey
+    key: K_LS_UP
+    identifier: 24
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick up
+    name: "L\u21D1"
+    scheme: !NameScheme 'NS'
+    named_description: Left stick up
+  - !NamedKey
+    key: K_LS_UP_RIGHT
+    identifier: 25
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick up right
+    name: "L\u21D7"
+    scheme: !NameScheme 'NS'
+    named_description: Left stick up right
+  - !NamedKey
+    key: K_LS_RIGHT
+    identifier: 26
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick right
+    name: "L\u21D2"
+    scheme: !NameScheme 'NS'
+    named_description: Left stick right
+  - !NamedKey
+    key: K_LS_DOWN_RIGHT
+    identifier: 27
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick down right
+    name: "L\u21D8"
+    scheme: !NameScheme 'NS'
+    named_description: Left stick down right
+  - !NamedKey
+    key: K_LS_DOWN
+    identifier: 28
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick down
+    name: "L\u21D3"
+    scheme: !NameScheme 'NS'
+    named_description: Left stick down
+  - !NamedKey
+    key: K_LS_DOWN_LEFT
+    identifier: 29
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick down left
+    name: "L\u21D9"
+    scheme: !NameScheme 'NS'
+    named_description: Left stick down left
+  - !NamedKey
+    key: K_LS_LEFT
+    identifier: 30
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick left
+    name: "L\u21D0"
+    scheme: !NameScheme 'NS'
+    named_description: Left stick left
+  - !NamedKey
+    key: K_LS_UP_LEFT
+    identifier: 31
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick up left
+    name: "L\u21D6"
+    scheme: !NameScheme 'NS'
+    named_description: Left stick up left
+  - !NamedKey
+    key: K_LS_CENTER
+    identifier: 32
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick center
+    name: "L\u2B24"
+    scheme: !NameScheme 'NS'
+    named_description: Left stick center
+  - !NamedKey
+    key: K_RS_UP
+    identifier: 33
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick up
+    name: "R\u21D1"
+    scheme: !NameScheme 'NS'
+    named_description: Right stick up
+  - !NamedKey
+    key: K_RS_UP_RIGHT
+    identifier: 34
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick up right
+    name: "R\u21D7"
+    scheme: !NameScheme 'NS'
+    named_description: Right stick up right
+  - !NamedKey
+    key: K_RS_RIGHT
+    identifier: 35
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick right
+    name: "R\u21D2"
+    scheme: !NameScheme 'NS'
+    named_description: Right stick right
+  - !NamedKey
+    key: K_RS_DOWN_RIGHT
+    identifier: 36
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick down right
+    name: "R\u21D8"
+    scheme: !NameScheme 'NS'
+    named_description: Right stick down right
+  - !NamedKey
+    key: K_RS_DOWN
+    identifier: 37
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick down
+    name: "R\u21D3"
+    scheme: !NameScheme 'NS'
+    named_description: Right stick down
+  - !NamedKey
+    key: K_RS_DOWN_LEFT
+    identifier: 38
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick down left
+    name: "R\u21D9"
+    scheme: !NameScheme 'NS'
+    named_description: Right stick down left
+  - !NamedKey
+    key: K_RS_LEFT
+    identifier: 39
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick left
+    name: "R\u21D0"
+    scheme: !NameScheme 'NS'
+    named_description: Right stick left
+  - !NamedKey
+    key: K_RS_UP_LEFT
+    identifier: 40
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick up left
+    name: "R\u21D6"
+    scheme: !NameScheme 'NS'
+    named_description: Right stick up left
+  - !NamedKey
+    key: K_RS_CENTER
+    identifier: 41
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick center
+    name: "R\u2B24"
+    scheme: !NameScheme 'NS'
+    named_description: Right stick center
+  identifier: 0
+  title: SMM2 standard
+  description: Index finger on run (Y), middle finger on jump (B); you can choose
+    whether you prefer to spin jump with the thumb (L) or with the ring finger (R).
+    Using the thumb should work better if you need to quickly switch between regular
+    jumping and spin jumping. You can also use the lower row of keys (X, A, ZR), if
+    you find a lower stance more comfortable.
+  data:
+    ? !Button
+      identifier: 12
+      name: 'Button #12'
+    : &id003 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_MINUS
+        identifier: 20
+        group: !KeyGroup 'REGULAR'
+        description: Menu left
+        name: '-'
+        scheme: !NameScheme 'NS'
+        named_description: Menu -
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 13
+      name: 'Button #13'
+    : &id004 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_PLUS
+        identifier: 19
+        group: !KeyGroup 'REGULAR'
+        description: Menu right
+        name: +
+        scheme: !NameScheme 'NS'
+        named_description: Menu +
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 14
+      name: 'Button #14'
+    : &id005 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_HOME
+        identifier: 18
+        group: !KeyGroup 'REGULAR'
+        description: Menu home
+        name: "\u2302"
+        scheme: !NameScheme 'NS'
+        named_description: Menu home
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 0
+      name: 'Button #0'
+    : &id006 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_DP_LEFT
+        identifier: 7
+        group: !KeyGroup 'DPAD'
+        description: D-pad left
+        name: "\u21D0"
+        scheme: !NameScheme 'NS'
+        named_description: D-pad left
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 1
+      name: 'Button #1'
+    : &id007 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_DP_DOWN
+        identifier: 5
+        group: !KeyGroup 'DPAD'
+        description: D-pad down
+        name: "\u21D3"
+        scheme: !NameScheme 'NS'
+        named_description: D-pad down
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 2
+      name: 'Button #2'
+    : &id008 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_DP_RIGHT
+        identifier: 3
+        group: !KeyGroup 'DPAD'
+        description: D-pad right
+        name: "\u21D2"
+        scheme: !NameScheme 'NS'
+        named_description: D-pad right
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 3
+      name: 'Button #3'
+    : &id009 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_DP_UP
+        identifier: 1
+        group: !KeyGroup 'DPAD'
+        description: D-pad up
+        name: "\u21D1"
+        scheme: !NameScheme 'NS'
+        named_description: D-pad up
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 4
+      name: 'Button #4'
+    : &id016 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_Y
+        identifier: 13
+        group: !KeyGroup 'REGULAR'
+        description: Button Y
+        name: Y
+        scheme: !NameScheme 'NS'
+        named_description: Button Y
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 5
+      name: 'Button #5'
+    : &id017 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_B
+        identifier: 11
+        group: !KeyGroup 'REGULAR'
+        description: Button B
+        name: B
+        scheme: !NameScheme 'NS'
+        named_description: Button B
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 8
+      name: 'Button #8'
+    : &id010 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_L
+        identifier: 14
+        group: !KeyGroup 'REGULAR'
+        description: Button left shoulder
+        name: L
+        scheme: !NameScheme 'NS'
+        named_description: Button left shoulder
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 9
+      name: 'Button #9'
+    : &id011 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_X
+        identifier: 12
+        group: !KeyGroup 'REGULAR'
+        description: Button X
+        name: X
+        scheme: !NameScheme 'NS'
+        named_description: Button X
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 10
+      name: 'Button #10'
+    : &id012 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: A
+        scheme: !NameScheme 'NS'
+        named_description: Button A
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 11
+      name: 'Button #11'
+    : &id013 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_ZR
+        identifier: 17
+        group: !KeyGroup 'REGULAR'
+        description: Button right trigger
+        name: ZR
+        scheme: !NameScheme 'NS'
+        named_description: Button right trigger
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 6
+      name: 'Button #6'
+    : &id014 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_R
+        identifier: 15
+        group: !KeyGroup 'REGULAR'
+        description: Button right shoulder
+        name: R
+        scheme: !NameScheme 'NS'
+        named_description: Button right shoulder
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 7
+      name: 'Button #7'
+    : &id015 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_ZL
+        identifier: 16
+        group: !KeyGroup 'REGULAR'
+        description: Button left trigger
+        name: ZL
+        scheme: !NameScheme 'NS'
+        named_description: Button left trigger
+      turbo: null
+      hold: null
+  scheme: !NameScheme 'NS'
+- !NamedMapping
+  buttons: *id001
+  keys: *id002
+  identifier: 0
+  title: SMM2 run on middle
+  description: A variant of "SMM2 standard" for those who prefer to use the middle
+    finger to hold run (Y), while using the index finger to jump (B). The lower row
+    is the same in "SMM2 standard", so that you can try both schemes if you are on
+    the fence about which one you prefer.
+  data:
+    ? !Button
+      identifier: 12
+      name: 'Button #12'
+    : *id003
+    ? !Button
+      identifier: 13
+      name: 'Button #13'
+    : *id004
+    ? !Button
+      identifier: 14
+      name: 'Button #14'
+    : *id005
+    ? !Button
+      identifier: 0
+      name: 'Button #0'
+    : *id006
+    ? !Button
+      identifier: 1
+      name: 'Button #1'
+    : *id007
+    ? !Button
+      identifier: 2
+      name: 'Button #2'
+    : *id008
+    ? !Button
+      identifier: 3
+      name: 'Button #3'
+    : *id009
+    ? !Button
+      identifier: 4
+      name: 'Button #4'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_B
+        identifier: 11
+        group: !KeyGroup 'REGULAR'
+        description: Button B
+        name: B
+        scheme: !NameScheme 'NS'
+        named_description: Button B
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 5
+      name: 'Button #5'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_Y
+        identifier: 13
+        group: !KeyGroup 'REGULAR'
+        description: Button Y
+        name: Y
+        scheme: !NameScheme 'NS'
+        named_description: Button Y
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 8
+      name: 'Button #8'
+    : *id010
+    ? !Button
+      identifier: 9
+      name: 'Button #9'
+    : *id011
+    ? !Button
+      identifier: 10
+      name: 'Button #10'
+    : *id012
+    ? !Button
+      identifier: 11
+      name: 'Button #11'
+    : *id013
+    ? !Button
+      identifier: 6
+      name: 'Button #6'
+    : *id014
+    ? !Button
+      identifier: 7
+      name: 'Button #7'
+    : *id015
+  scheme: !NameScheme 'NS'
+- !NamedMapping
+  buttons: *id001
+  keys: *id002
+  identifier: 0
+  title: SMM2 button mashing
+  description: 'For levels that require to spam the B button or the Y button. If you
+    need to just mash them, you can use equivalent buttons: index and thumb for the
+    run button (Y/X) or middle and thumb for the jump button (B/A). This setup also
+    allows you to hold run (Y) while also firing
+
+    with X, which is useful to fire quickly without losing speed.'
+  data:
+    ? !Button
+      identifier: 12
+      name: 'Button #12'
+    : *id003
+    ? !Button
+      identifier: 13
+      name: 'Button #13'
+    : *id004
+    ? !Button
+      identifier: 14
+      name: 'Button #14'
+    : *id005
+    ? !Button
+      identifier: 0
+      name: 'Button #0'
+    : *id006
+    ? !Button
+      identifier: 1
+      name: 'Button #1'
+    : *id007
+    ? !Button
+      identifier: 2
+      name: 'Button #2'
+    : *id008
+    ? !Button
+      identifier: 3
+      name: 'Button #3'
+    : *id009
+    ? !Button
+      identifier: 4
+      name: 'Button #4'
+    : *id016
+    ? !Button
+      identifier: 5
+      name: 'Button #5'
+    : *id017
+    ? !Button
+      identifier: 8
+      name: 'Button #8'
+    : &id018 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_X
+        identifier: 12
+        group: !KeyGroup 'REGULAR'
+        description: Button X
+        name: X
+        scheme: !NameScheme 'NS'
+        named_description: Button X
+      turbo: 75
+      hold: null
+    ? !Button
+      identifier: 9
+      name: 'Button #9'
+    : &id019 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: A
+        scheme: !NameScheme 'NS'
+        named_description: Button A
+      turbo: 75
+      hold: null
+    ? !Button
+      identifier: 10
+      name: 'Button #10'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_ZL
+        identifier: 16
+        group: !KeyGroup 'REGULAR'
+        description: Button left trigger
+        name: ZL
+        scheme: !NameScheme 'NS'
+        named_description: Button left trigger
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 11
+      name: 'Button #11'
+    : *id013
+    ? !Button
+      identifier: 6
+      name: 'Button #6'
+    : *id014
+    ? !Button
+      identifier: 7
+      name: 'Button #7'
+    : !AndPress
+    - &id020 !Press
+      key: !NamedKey
+        key: K_L
+        identifier: 14
+        group: !KeyGroup 'REGULAR'
+        description: Button left shoulder
+        name: L
+        scheme: !NameScheme 'NS'
+        named_description: Button left shoulder
+      turbo: null
+      hold: null
+  scheme: !NameScheme 'NS'
+- !NamedMapping
+  buttons: *id001
+  keys: *id002
+  identifier: 0
+  title: SMM2 button mashing
+  description: A variant of "SMM2 button mashing" with the addition of turbo on run
+    (X) and jump (A). Plain buttons X and A are still available on the bottom row's
+    right-hand side for menu navigation; for a similar reason, the top rightmost button
+    maps to L & R so that you can start SMM2 without having to use a different controller.
+  data:
+    ? !Button
+      identifier: 12
+      name: 'Button #12'
+    : *id003
+    ? !Button
+      identifier: 13
+      name: 'Button #13'
+    : *id004
+    ? !Button
+      identifier: 14
+      name: 'Button #14'
+    : *id005
+    ? !Button
+      identifier: 0
+      name: 'Button #0'
+    : *id006
+    ? !Button
+      identifier: 1
+      name: 'Button #1'
+    : *id007
+    ? !Button
+      identifier: 2
+      name: 'Button #2'
+    : *id008
+    ? !Button
+      identifier: 3
+      name: 'Button #3'
+    : *id009
+    ? !Button
+      identifier: 4
+      name: 'Button #4'
+    : *id016
+    ? !Button
+      identifier: 5
+      name: 'Button #5'
+    : *id017
+    ? !Button
+      identifier: 8
+      name: 'Button #8'
+    : *id018
+    ? !Button
+      identifier: 9
+      name: 'Button #9'
+    : *id019
+    ? !Button
+      identifier: 10
+      name: 'Button #10'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_X
+        identifier: 12
+        group: !KeyGroup 'REGULAR'
+        description: Button X
+        name: X
+        scheme: !NameScheme 'NS'
+        named_description: Button X
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 11
+      name: 'Button #11'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: A
+        scheme: !NameScheme 'NS'
+        named_description: Button A
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 6
+      name: 'Button #6'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_L
+        identifier: 14
+        group: !KeyGroup 'REGULAR'
+        description: Button left shoulder
+        name: L
+        scheme: !NameScheme 'NS'
+        named_description: Button left shoulder
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 7
+      name: 'Button #7'
+    : !AndPress
+    - *id020
+    - !Press
+      key: !NamedKey
+        key: K_R
+        identifier: 15
+        group: !KeyGroup 'REGULAR'
+        description: Button right shoulder
+        name: R
+        scheme: !NameScheme 'NS'
+        named_description: Button right shoulder
+      turbo: null
+      hold: null
+  scheme: !NameScheme 'NS'
+- !NamedMapping
+  buttons: *id001
+  keys: *id002
+  identifier: 0
+  title: SMW standard
+  description: This is the equivalent of "SMM2 standard" for Super Mario World (as
+    played, for example, on SNES online), which uses A instead of L/R/ZL/ZR for spin
+    jumping. Keys A and B appear twice to support spin jumping with the ring finger
+    or the thumb, and to use the lower row of keys as well as the upper one. ZL and
+    ZR are still available, since they are used to suspend the game when playing in
+    SNES online.
+  data:
+    ? !Button
+      identifier: 12
+      name: 'Button #12'
+    : *id003
+    ? !Button
+      identifier: 13
+      name: 'Button #13'
+    : *id004
+    ? !Button
+      identifier: 14
+      name: 'Button #14'
+    : *id005
+    ? !Button
+      identifier: 0
+      name: 'Button #0'
+    : *id006
+    ? !Button
+      identifier: 1
+      name: 'Button #1'
+    : *id007
+    ? !Button
+      identifier: 2
+      name: 'Button #2'
+    : *id008
+    ? !Button
+      identifier: 3
+      name: 'Button #3'
+    : *id009
+    ? !Button
+      identifier: 4
+      name: 'Button #4'
+    : *id016
+    ? !Button
+      identifier: 5
+      name: 'Button #5'
+    : *id017
+    ? !Button
+      identifier: 8
+      name: 'Button #8'
+    : &id021 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: A
+        scheme: !NameScheme 'NS'
+        named_description: Button A
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 9
+      name: 'Button #9'
+    : *id011
+    ? !Button
+      identifier: 10
+      name: 'Button #10'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_B
+        identifier: 11
+        group: !KeyGroup 'REGULAR'
+        description: Button B
+        name: B
+        scheme: !NameScheme 'NS'
+        named_description: Button B
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 11
+      name: 'Button #11'
+    : *id013
+    ? !Button
+      identifier: 6
+      name: 'Button #6'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: A
+        scheme: !NameScheme 'NS'
+        named_description: Button A
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 7
+      name: 'Button #7'
+    : *id015
+  scheme: !NameScheme 'NS'
+- !NamedMapping
+  buttons: *id001
+  keys: *id002
+  identifier: 0
+  title: NS plain
+  description: This is the (more or less) standard button layout of arcade sticks
+    on the Nintendo Switch.
+  data:
+    ? !Button
+      identifier: 12
+      name: 'Button #12'
+    : *id003
+    ? !Button
+      identifier: 13
+      name: 'Button #13'
+    : *id004
+    ? !Button
+      identifier: 14
+      name: 'Button #14'
+    : *id005
+    ? !Button
+      identifier: 0
+      name: 'Button #0'
+    : *id006
+    ? !Button
+      identifier: 1
+      name: 'Button #1'
+    : *id007
+    ? !Button
+      identifier: 2
+      name: 'Button #2'
+    : *id008
+    ? !Button
+      identifier: 3
+      name: 'Button #3'
+    : *id009
+    ? !Button
+      identifier: 4
+      name: 'Button #4'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_X
+        identifier: 12
+        group: !KeyGroup 'REGULAR'
+        description: Button X
+        name: X
+        scheme: !NameScheme 'NS'
+        named_description: Button X
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 5
+      name: 'Button #5'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_Y
+        identifier: 13
+        group: !KeyGroup 'REGULAR'
+        description: Button Y
+        name: Y
+        scheme: !NameScheme 'NS'
+        named_description: Button Y
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 8
+      name: 'Button #8'
+    : *id021
+    ? !Button
+      identifier: 9
+      name: 'Button #9'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_B
+        identifier: 11
+        group: !KeyGroup 'REGULAR'
+        description: Button B
+        name: B
+        scheme: !NameScheme 'NS'
+        named_description: Button B
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 10
+      name: 'Button #10'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_L
+        identifier: 14
+        group: !KeyGroup 'REGULAR'
+        description: Button left shoulder
+        name: L
+        scheme: !NameScheme 'NS'
+        named_description: Button left shoulder
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 11
+      name: 'Button #11'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_R
+        identifier: 15
+        group: !KeyGroup 'REGULAR'
+        description: Button right shoulder
+        name: R
+        scheme: !NameScheme 'NS'
+        named_description: Button right shoulder
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 6
+      name: 'Button #6'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_ZL
+        identifier: 16
+        group: !KeyGroup 'REGULAR'
+        description: Button left trigger
+        name: ZL
+        scheme: !NameScheme 'NS'
+        named_description: Button left trigger
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 7
+      name: 'Button #7'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_ZR
+        identifier: 17
+        group: !KeyGroup 'REGULAR'
+        description: Button right trigger
+        name: ZR
+        scheme: !NameScheme 'NS'
+        named_description: Button right trigger
+      turbo: null
+      hold: null
+  scheme: !NameScheme 'NS'
+- !NamedMapping
+  buttons: *id001
+  keys: &id022 !NamedKeys
+  - !NamedKey
+    key: K_NOOP
+    identifier: 0
+    group: !KeyGroup 'NOOP'
+    description: Do nothing
+    name: ''
+    scheme: !NameScheme 'PC'
+    named_description: Do nothing
+  - !NamedKey
+    key: K_DP_UP
+    identifier: 1
+    group: !KeyGroup 'DPAD'
+    description: D-pad up
+    name: "\u21D1"
+    scheme: !NameScheme 'PC'
+    named_description: D-pad up
+  - !NamedKey
+    key: K_DP_UP_RIGHT
+    identifier: 2
+    group: !KeyGroup 'DPAD'
+    description: D-pad up right
+    name: "\u21D7"
+    scheme: !NameScheme 'PC'
+    named_description: D-pad up right
+  - !NamedKey
+    key: K_DP_RIGHT
+    identifier: 3
+    group: !KeyGroup 'DPAD'
+    description: D-pad right
+    name: "\u21D2"
+    scheme: !NameScheme 'PC'
+    named_description: D-pad right
+  - !NamedKey
+    key: K_DP_DOWN_RIGHT
+    identifier: 4
+    group: !KeyGroup 'DPAD'
+    description: D-pad down right
+    name: "\u21D8"
+    scheme: !NameScheme 'PC'
+    named_description: D-pad down right
+  - !NamedKey
+    key: K_DP_DOWN
+    identifier: 5
+    group: !KeyGroup 'DPAD'
+    description: D-pad down
+    name: "\u21D3"
+    scheme: !NameScheme 'PC'
+    named_description: D-pad down
+  - !NamedKey
+    key: K_DP_DOWN_LEFT
+    identifier: 6
+    group: !KeyGroup 'DPAD'
+    description: D-pad down left
+    name: "\u21D9"
+    scheme: !NameScheme 'PC'
+    named_description: D-pad down left
+  - !NamedKey
+    key: K_DP_LEFT
+    identifier: 7
+    group: !KeyGroup 'DPAD'
+    description: D-pad left
+    name: "\u21D0"
+    scheme: !NameScheme 'PC'
+    named_description: D-pad left
+  - !NamedKey
+    key: K_DP_UP_LEFT
+    identifier: 8
+    group: !KeyGroup 'DPAD'
+    description: D-pad up left
+    name: "\u21D6"
+    scheme: !NameScheme 'PC'
+    named_description: D-pad up left
+  - !NamedKey
+    key: K_DP_CENTER
+    identifier: 9
+    group: !KeyGroup 'DPAD'
+    description: D-pad centered
+    name: "\u2B24"
+    scheme: !NameScheme 'PC'
+    named_description: D-pad centered
+  - !NamedKey
+    key: K_A
+    identifier: 10
+    group: !KeyGroup 'REGULAR'
+    description: Button A
+    name: B
+    scheme: !NameScheme 'PC'
+    named_description: Button B
+  - !NamedKey
+    key: K_B
+    identifier: 11
+    group: !KeyGroup 'REGULAR'
+    description: Button B
+    name: A
+    scheme: !NameScheme 'PC'
+    named_description: Button A
+  - !NamedKey
+    key: K_X
+    identifier: 12
+    group: !KeyGroup 'REGULAR'
+    description: Button X
+    name: Y
+    scheme: !NameScheme 'PC'
+    named_description: Button Y
+  - !NamedKey
+    key: K_Y
+    identifier: 13
+    group: !KeyGroup 'REGULAR'
+    description: Button Y
+    name: X
+    scheme: !NameScheme 'PC'
+    named_description: Button X
+  - !NamedKey
+    key: K_L
+    identifier: 14
+    group: !KeyGroup 'REGULAR'
+    description: Button left shoulder
+    name: LB
+    scheme: !NameScheme 'PC'
+    named_description: Button left bumper
+  - !NamedKey
+    key: K_R
+    identifier: 15
+    group: !KeyGroup 'REGULAR'
+    description: Button right shoulder
+    name: RB
+    scheme: !NameScheme 'PC'
+    named_description: Button right bumper
+  - !NamedKey
+    key: K_ZL
+    identifier: 16
+    group: !KeyGroup 'REGULAR'
+    description: Button left trigger
+    name: LT
+    scheme: !NameScheme 'PC'
+    named_description: Button left trigger
+  - !NamedKey
+    key: K_ZR
+    identifier: 17
+    group: !KeyGroup 'REGULAR'
+    description: Button right trigger
+    name: RT
+    scheme: !NameScheme 'PC'
+    named_description: Button right trigger
+  - !NamedKey
+    key: K_HOME
+    identifier: 18
+    group: !KeyGroup 'REGULAR'
+    description: Menu home
+    name: "\u2302"
+    scheme: !NameScheme 'PC'
+    named_description: Menu home
+  - !NamedKey
+    key: K_PLUS
+    identifier: 19
+    group: !KeyGroup 'REGULAR'
+    description: Menu right
+    name: start
+    scheme: !NameScheme 'PC'
+    named_description: Menu start
+  - !NamedKey
+    key: K_MINUS
+    identifier: 20
+    group: !KeyGroup 'REGULAR'
+    description: Menu left
+    name: select
+    scheme: !NameScheme 'PC'
+    named_description: Menu select
+  - !NamedKey
+    key: K_LS_PRESS
+    identifier: 21
+    group: !KeyGroup 'REGULAR'
+    description: Left stick press
+    name: "L\u2713"
+    scheme: !NameScheme 'PC'
+    named_description: Left stick press
+  - !NamedKey
+    key: K_RS_PRESS
+    identifier: 22
+    group: !KeyGroup 'REGULAR'
+    description: Right stick press
+    name: "R\u2713"
+    scheme: !NameScheme 'PC'
+    named_description: Right stick press
+  - !NamedKey
+    key: K_CAPTURE
+    identifier: 23
+    group: !KeyGroup 'REGULAR'
+    description: Menu capture
+    name: capture
+    scheme: !NameScheme 'PC'
+    named_description: Menu capture
+  - !NamedKey
+    key: K_LS_UP
+    identifier: 24
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick up
+    name: "L\u21D1"
+    scheme: !NameScheme 'PC'
+    named_description: Left stick up
+  - !NamedKey
+    key: K_LS_UP_RIGHT
+    identifier: 25
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick up right
+    name: "L\u21D7"
+    scheme: !NameScheme 'PC'
+    named_description: Left stick up right
+  - !NamedKey
+    key: K_LS_RIGHT
+    identifier: 26
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick right
+    name: "L\u21D2"
+    scheme: !NameScheme 'PC'
+    named_description: Left stick right
+  - !NamedKey
+    key: K_LS_DOWN_RIGHT
+    identifier: 27
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick down right
+    name: "L\u21D8"
+    scheme: !NameScheme 'PC'
+    named_description: Left stick down right
+  - !NamedKey
+    key: K_LS_DOWN
+    identifier: 28
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick down
+    name: "L\u21D3"
+    scheme: !NameScheme 'PC'
+    named_description: Left stick down
+  - !NamedKey
+    key: K_LS_DOWN_LEFT
+    identifier: 29
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick down left
+    name: "L\u21D9"
+    scheme: !NameScheme 'PC'
+    named_description: Left stick down left
+  - !NamedKey
+    key: K_LS_LEFT
+    identifier: 30
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick left
+    name: "L\u21D0"
+    scheme: !NameScheme 'PC'
+    named_description: Left stick left
+  - !NamedKey
+    key: K_LS_UP_LEFT
+    identifier: 31
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick up left
+    name: "L\u21D6"
+    scheme: !NameScheme 'PC'
+    named_description: Left stick up left
+  - !NamedKey
+    key: K_LS_CENTER
+    identifier: 32
+    group: !KeyGroup 'LEFT_STICK'
+    description: Left stick center
+    name: "L\u2B24"
+    scheme: !NameScheme 'PC'
+    named_description: Left stick center
+  - !NamedKey
+    key: K_RS_UP
+    identifier: 33
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick up
+    name: "R\u21D1"
+    scheme: !NameScheme 'PC'
+    named_description: Right stick up
+  - !NamedKey
+    key: K_RS_UP_RIGHT
+    identifier: 34
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick up right
+    name: "R\u21D7"
+    scheme: !NameScheme 'PC'
+    named_description: Right stick up right
+  - !NamedKey
+    key: K_RS_RIGHT
+    identifier: 35
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick right
+    name: "R\u21D2"
+    scheme: !NameScheme 'PC'
+    named_description: Right stick right
+  - !NamedKey
+    key: K_RS_DOWN_RIGHT
+    identifier: 36
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick down right
+    name: "R\u21D8"
+    scheme: !NameScheme 'PC'
+    named_description: Right stick down right
+  - !NamedKey
+    key: K_RS_DOWN
+    identifier: 37
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick down
+    name: "R\u21D3"
+    scheme: !NameScheme 'PC'
+    named_description: Right stick down
+  - !NamedKey
+    key: K_RS_DOWN_LEFT
+    identifier: 38
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick down left
+    name: "R\u21D9"
+    scheme: !NameScheme 'PC'
+    named_description: Right stick down left
+  - !NamedKey
+    key: K_RS_LEFT
+    identifier: 39
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick left
+    name: "R\u21D0"
+    scheme: !NameScheme 'PC'
+    named_description: Right stick left
+  - !NamedKey
+    key: K_RS_UP_LEFT
+    identifier: 40
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick up left
+    name: "R\u21D6"
+    scheme: !NameScheme 'PC'
+    named_description: Right stick up left
+  - !NamedKey
+    key: K_RS_CENTER
+    identifier: 41
+    group: !KeyGroup 'RIGHT_STICK'
+    description: Right stick center
+    name: "R\u2B24"
+    scheme: !NameScheme 'PC'
+    named_description: Right stick center
+  identifier: 6
+  title: PC plain
+  description: This is the (more or less) standard button layout of arcade sticks
+    on a PC.
+  data:
+    ? !Button
+      identifier: 12
+      name: 'Button #12'
+    : &id023 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_MINUS
+        identifier: 20
+        group: !KeyGroup 'REGULAR'
+        description: Menu left
+        name: select
+        scheme: !NameScheme 'PC'
+        named_description: Menu select
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 13
+      name: 'Button #13'
+    : &id024 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_PLUS
+        identifier: 19
+        group: !KeyGroup 'REGULAR'
+        description: Menu right
+        name: start
+        scheme: !NameScheme 'PC'
+        named_description: Menu start
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 14
+      name: 'Button #14'
+    : &id025 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_HOME
+        identifier: 18
+        group: !KeyGroup 'REGULAR'
+        description: Menu home
+        name: "\u2302"
+        scheme: !NameScheme 'PC'
+        named_description: Menu home
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 0
+      name: 'Button #0'
+    : &id026 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_DP_LEFT
+        identifier: 7
+        group: !KeyGroup 'DPAD'
+        description: D-pad left
+        name: "\u21D0"
+        scheme: !NameScheme 'PC'
+        named_description: D-pad left
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 1
+      name: 'Button #1'
+    : &id027 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_DP_DOWN
+        identifier: 5
+        group: !KeyGroup 'DPAD'
+        description: D-pad down
+        name: "\u21D3"
+        scheme: !NameScheme 'PC'
+        named_description: D-pad down
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 2
+      name: 'Button #2'
+    : &id028 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_DP_RIGHT
+        identifier: 3
+        group: !KeyGroup 'DPAD'
+        description: D-pad right
+        name: "\u21D2"
+        scheme: !NameScheme 'PC'
+        named_description: D-pad right
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 3
+      name: 'Button #3'
+    : &id029 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_DP_UP
+        identifier: 1
+        group: !KeyGroup 'DPAD'
+        description: D-pad up
+        name: "\u21D1"
+        scheme: !NameScheme 'PC'
+        named_description: D-pad up
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 4
+      name: 'Button #4'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_Y
+        identifier: 13
+        group: !KeyGroup 'REGULAR'
+        description: Button Y
+        name: X
+        scheme: !NameScheme 'PC'
+        named_description: Button X
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 5
+      name: 'Button #5'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_X
+        identifier: 12
+        group: !KeyGroup 'REGULAR'
+        description: Button X
+        name: Y
+        scheme: !NameScheme 'PC'
+        named_description: Button Y
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 6
+      name: 'Button #6'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_ZL
+        identifier: 16
+        group: !KeyGroup 'REGULAR'
+        description: Button left trigger
+        name: LT
+        scheme: !NameScheme 'PC'
+        named_description: Button left trigger
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 7
+      name: 'Button #7'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_ZR
+        identifier: 17
+        group: !KeyGroup 'REGULAR'
+        description: Button right trigger
+        name: RT
+        scheme: !NameScheme 'PC'
+        named_description: Button right trigger
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 11
+      name: 'Button #11'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_R
+        identifier: 15
+        group: !KeyGroup 'REGULAR'
+        description: Button right shoulder
+        name: RB
+        scheme: !NameScheme 'PC'
+        named_description: Button right bumper
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 10
+      name: 'Button #10'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_L
+        identifier: 14
+        group: !KeyGroup 'REGULAR'
+        description: Button left shoulder
+        name: LB
+        scheme: !NameScheme 'PC'
+        named_description: Button left bumper
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 9
+      name: 'Button #9'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: B
+        scheme: !NameScheme 'PC'
+        named_description: Button B
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 8
+      name: 'Button #8'
+    : &id030 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_B
+        identifier: 11
+        group: !KeyGroup 'REGULAR'
+        description: Button B
+        name: A
+        scheme: !NameScheme 'PC'
+        named_description: Button A
+      turbo: null
+      hold: null
+  scheme: !NameScheme 'PC'
+- !NamedMapping
+  buttons: *id001
+  keys: *id022
+  identifier: 6
+  title: PC kaizo
+  description: This is similar to "SMW standard" plus a "grab throwblock" key combo
+    (A & B). If you prefer to spin jump with the ring finger, use the lower button
+    row. This remapping is meant for playing SMW ROM hacks in an emulator; since an
+    emulator usually supports button remapping, use the "PC plain" remapping to define
+    the key bindings in the emulator (so that the emulator recognizes all the usual
+    button inputs), and then switch to this remapping when playing.
+  data:
+    ? !Button
+      identifier: 12
+      name: 'Button #12'
+    : *id023
+    ? !Button
+      identifier: 13
+      name: 'Button #13'
+    : *id024
+    ? !Button
+      identifier: 14
+      name: 'Button #14'
+    : *id025
+    ? !Button
+      identifier: 0
+      name: 'Button #0'
+    : *id026
+    ? !Button
+      identifier: 1
+      name: 'Button #1'
+    : *id027
+    ? !Button
+      identifier: 2
+      name: 'Button #2'
+    : *id028
+    ? !Button
+      identifier: 3
+      name: 'Button #3'
+    : *id029
+    ? !Button
+      identifier: 4
+      name: 'Button #4'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_X
+        identifier: 12
+        group: !KeyGroup 'REGULAR'
+        description: Button X
+        name: Y
+        scheme: !NameScheme 'PC'
+        named_description: Button Y
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 5
+      name: 'Button #5'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: B
+        scheme: !NameScheme 'PC'
+        named_description: Button B
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 6
+      name: 'Button #6'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_B
+        identifier: 11
+        group: !KeyGroup 'REGULAR'
+        description: Button B
+        name: A
+        scheme: !NameScheme 'PC'
+        named_description: Button A
+      turbo: null
+      hold: null
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: B
+        scheme: !NameScheme 'PC'
+        named_description: Button B
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 7
+      name: 'Button #7'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_L
+        identifier: 14
+        group: !KeyGroup 'REGULAR'
+        description: Button left shoulder
+        name: LB
+        scheme: !NameScheme 'PC'
+        named_description: Button left bumper
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 11
+      name: 'Button #11'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_B
+        identifier: 11
+        group: !KeyGroup 'REGULAR'
+        description: Button B
+        name: A
+        scheme: !NameScheme 'PC'
+        named_description: Button A
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 10
+      name: 'Button #10'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: B
+        scheme: !NameScheme 'PC'
+        named_description: Button B
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 9
+      name: 'Button #9'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_Y
+        identifier: 13
+        group: !KeyGroup 'REGULAR'
+        description: Button Y
+        name: X
+        scheme: !NameScheme 'PC'
+        named_description: Button X
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 8
+      name: 'Button #8'
+    : *id030
+  scheme: !NameScheme 'PC'
+- !NamedMapping
+  buttons: *id001
+  keys: *id002
+  identifier: 0
+  title: Levelhead standard
+  description: 'For playing Levelhead on the Nintendo Switch. Use the index finger
+    to jump (B), the middle finger to grab (ZR), and the thumb or ring finger for
+    special actions (when you have a powerup). Holding L restarts the level at the
+    latest checkpoint. The rest of the remapping adds keys X, Y, and R for menu navigation,
+    even though they are not used while
+
+    playing.'
+  data:
+    ? !Button
+      identifier: 12
+      name: 'Button #12'
+    : *id003
+    ? !Button
+      identifier: 13
+      name: 'Button #13'
+    : *id004
+    ? !Button
+      identifier: 14
+      name: 'Button #14'
+    : *id005
+    ? !Button
+      identifier: 0
+      name: 'Button #0'
+    : *id006
+    ? !Button
+      identifier: 1
+      name: 'Button #1'
+    : *id007
+    ? !Button
+      identifier: 2
+      name: 'Button #2'
+    : *id008
+    ? !Button
+      identifier: 3
+      name: 'Button #3'
+    : *id009
+    ? !Button
+      identifier: 4
+      name: 'Button #4'
+    : &id031 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_B
+        identifier: 11
+        group: !KeyGroup 'REGULAR'
+        description: Button B
+        name: B
+        scheme: !NameScheme 'NS'
+        named_description: Button B
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 5
+      name: 'Button #5'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_ZR
+        identifier: 17
+        group: !KeyGroup 'REGULAR'
+        description: Button right trigger
+        name: ZR
+        scheme: !NameScheme 'NS'
+        named_description: Button right trigger
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 8
+      name: 'Button #8'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: A
+        scheme: !NameScheme 'NS'
+        named_description: Button A
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 9
+      name: 'Button #9'
+    : *id011
+    ? !Button
+      identifier: 10
+      name: 'Button #10'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_Y
+        identifier: 13
+        group: !KeyGroup 'REGULAR'
+        description: Button Y
+        name: Y
+        scheme: !NameScheme 'NS'
+        named_description: Button Y
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 11
+      name: 'Button #11'
+    : &id032 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_R
+        identifier: 15
+        group: !KeyGroup 'REGULAR'
+        description: Button right shoulder
+        name: R
+        scheme: !NameScheme 'NS'
+        named_description: Button right shoulder
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 6
+      name: 'Button #6'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: A
+        scheme: !NameScheme 'NS'
+        named_description: Button A
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 7
+      name: 'Button #7'
+    : &id033 !AndPress
+    - &id037 !Press
+      key: !NamedKey
+        key: K_L
+        identifier: 14
+        group: !KeyGroup 'REGULAR'
+        description: Button left shoulder
+        name: L
+        scheme: !NameScheme 'NS'
+        named_description: Button left shoulder
+      turbo: null
+      hold: null
+  scheme: !NameScheme 'NS'
+- !NamedMapping
+  buttons: *id001
+  keys: *id002
+  identifier: 0
+  title: Celeste standard
+  description: For playing Celeste (with default mapping) on the Nintendo Switch.
+    Use the index finger to jump (B/X), the middle finger to dash (Y/A), and the ring
+    or thumb finger to climb (ZL/ZR).
+  data:
+    ? !Button
+      identifier: 12
+      name: 'Button #12'
+    : *id003
+    ? !Button
+      identifier: 13
+      name: 'Button #13'
+    : *id004
+    ? !Button
+      identifier: 14
+      name: 'Button #14'
+    : *id005
+    ? !Button
+      identifier: 0
+      name: 'Button #0'
+    : *id006
+    ? !Button
+      identifier: 1
+      name: 'Button #1'
+    : *id007
+    ? !Button
+      identifier: 2
+      name: 'Button #2'
+    : *id008
+    ? !Button
+      identifier: 3
+      name: 'Button #3'
+    : *id009
+    ? !Button
+      identifier: 4
+      name: 'Button #4'
+    : *id031
+    ? !Button
+      identifier: 5
+      name: 'Button #5'
+    : &id034 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_Y
+        identifier: 13
+        group: !KeyGroup 'REGULAR'
+        description: Button Y
+        name: Y
+        scheme: !NameScheme 'NS'
+        named_description: Button Y
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 8
+      name: 'Button #8'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_ZR
+        identifier: 17
+        group: !KeyGroup 'REGULAR'
+        description: Button right trigger
+        name: ZR
+        scheme: !NameScheme 'NS'
+        named_description: Button right trigger
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 9
+      name: 'Button #9'
+    : *id011
+    ? !Button
+      identifier: 10
+      name: 'Button #10'
+    : &id035 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: A
+        scheme: !NameScheme 'NS'
+        named_description: Button A
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 11
+      name: 'Button #11'
+    : *id032
+    ? !Button
+      identifier: 6
+      name: 'Button #6'
+    : &id036 !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_ZL
+        identifier: 16
+        group: !KeyGroup 'REGULAR'
+        description: Button left trigger
+        name: ZL
+        scheme: !NameScheme 'NS'
+        named_description: Button left trigger
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 7
+      name: 'Button #7'
+    : *id033
+  scheme: !NameScheme 'NS'
+- !NamedMapping
+  buttons: *id001
+  keys: *id002
+  identifier: 0
+  title: Celeste with combos
+  description: A variant of "Celeste standard" with the addition of macros to climb
+    up (L & up) and dash up (A & up), which are common actions in Celeste gameplay.
+  data:
+    ? !Button
+      identifier: 12
+      name: 'Button #12'
+    : *id003
+    ? !Button
+      identifier: 13
+      name: 'Button #13'
+    : *id004
+    ? !Button
+      identifier: 14
+      name: 'Button #14'
+    : *id005
+    ? !Button
+      identifier: 0
+      name: 'Button #0'
+    : *id006
+    ? !Button
+      identifier: 1
+      name: 'Button #1'
+    : *id007
+    ? !Button
+      identifier: 2
+      name: 'Button #2'
+    : *id008
+    ? !Button
+      identifier: 3
+      name: 'Button #3'
+    : *id009
+    ? !Button
+      identifier: 4
+      name: 'Button #4'
+    : *id031
+    ? !Button
+      identifier: 5
+      name: 'Button #5'
+    : *id034
+    ? !Button
+      identifier: 8
+      name: 'Button #8'
+    : !AndPress
+    - !Press
+      key: !NamedKey
+        key: K_A
+        identifier: 10
+        group: !KeyGroup 'REGULAR'
+        description: Button A
+        name: A
+        scheme: !NameScheme 'NS'
+        named_description: Button A
+      turbo: null
+      hold: null
+    - !Press
+      key: !NamedKey
+        key: K_DP_UP
+        identifier: 1
+        group: !KeyGroup 'DPAD'
+        description: D-pad up
+        name: "\u21D1"
+        scheme: !NameScheme 'NS'
+        named_description: D-pad up
+      turbo: null
+      hold: null
+    ? !Button
+      identifier: 9
+      name: 'Button #9'
+    : *id011
+    ? !Button
+      identifier: 10
+      name: 'Button #10'
+    : *id035
+    ? !Button
+      identifier: 11
+      name: 'Button #11'
+    : *id032
+    ? !Button
+      identifier: 6
+      name: 'Button #6'
+    : *id036
+    ? !Button
+      identifier: 7
+      name: 'Button #7'
+    : !AndPress
+    - *id037
+    - !Press
+      key: !NamedKey
+        key: K_DP_UP
+        identifier: 1
+        group: !KeyGroup 'DPAD'
+        description: D-pad up
+        name: "\u21D1"
+        scheme: !NameScheme 'NS'
+        named_description: D-pad up
+      turbo: null
+      hold: null
+  scheme: !NameScheme 'NS'

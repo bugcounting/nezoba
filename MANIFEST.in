@@ -1,0 +1,6 @@
+# Here's how you can then refer to these resources within the Python project
+# https://stackoverflow.com/a/20885799
+include src/nezoba/data/*.yaml
+include src/nezoba/libs/*.patch
+include src/board/*.ino src/board/*.h src/board/*.cpp
+include src/nezoba/gui/imgs/*.svg src/nezoba/gui/imgs/nez-oba-favicon.ico
