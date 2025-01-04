@@ -1,6 +1,6 @@
 # Nez-Oba: a custom button-only game controller
 
-The Nez-Oba[^1] project provides the schematics of a fully-programmer
+The Nez-Oba[^1] project provides the schematics of a fully-programmable
 all-button wired game controller board, as well as software to program
 the controller's behavior to emulate a standard gamepad, and to
 reconfigure its button layout.
